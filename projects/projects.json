@@ -1,0 +1,63 @@
+[
+  
+  {
+    "name": "Youtube Clone",
+    "desc": "A feature-rich YouTube clone built with modern Web Technologies.",
+    "image": "instagrammern",
+    "category": "mern",
+    "links": {
+      "view": "https://youtubeeclonewebsite.netlify.app/",
+      "code": "https://github.com/thakur-aditya-ss/Youtube-Clone"
+    }
+  },
+  {
+    "name": "Mordern LogIn Page",
+    "desc": "A clean and responsive login interface built with HTML, CSS, and JavaScript",
+    "image": "flipkartmern",
+    "category": "mern",
+    "links": {
+      "view": "https://mordern-login-page.vercel.app/",
+      "code": "https://github.com/thakur-aditya-ss/Mordern-Login-Page"
+    }
+  },
+  {
+    "name": "College ChatBot",
+    "desc": "A smart chatbot interface that provides instant answers to students about college admissions,campus services.",
+    "image": "resumegen",
+    "category": "mern",
+    "links": {
+      "view": "https://college-chat-bot-pi.vercel.app/",
+      "code": "https://github.com/thakur-aditya-ss/College-Chat-Bot"
+    }
+  },
+  {
+    "name": "Solar system explorer",
+    "desc": "An interactive educational website featuring 3D planet visualizations, and detailed information about our solar system's.",
+    "image": "jspro",
+    "category": "basicweb",
+    "links": {
+      "view": "https://solar-system-project-two.vercel.app/",
+      "code": "http://github.com/thakur-aditya-ss/Solar-System-Project"
+    }
+  },
+  {
+    "name": "SR PhotoGraphy Studio Website",
+    "desc": "A responsive website for a photography studio with interactive image galleries, booking sections, and modern UI/UX design using HTML, CSS, and JavaScript.",
+    "image": "flipkartphp",
+    "category": "lamp",
+    "links": {
+      "view": "https://srphotography-studio-webpage.vercel.app/",
+      "code": "https://github.com/thakur-aditya-ss/SR-Photography-Studio-WebPage"
+    }
+  },
+  {
+    "name": "SS Resturant Website",
+    "desc": "A modern, fully responsive restaurant website developed using HTML5, CSS3, and JavaScript. This project showcases an elegant digital dining experience with a clean, user-friendly interface and smooth animations.",
+    "image": "jspro",
+    "category": "basicweb",
+    "links": {
+      "view": "https://ss-restaurent-website.vercel.app/",
+      "code": "https://github.com/thakur-aditya-ss/SS-Restaurent-Website"
+    }
+  }
+]

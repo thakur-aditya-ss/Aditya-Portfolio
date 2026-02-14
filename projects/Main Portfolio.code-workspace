@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../Modern-Portfolio sss"
+		},
+		{
+			"path": "../../../../My Restaurant"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Main Portfolio"
+	}
+}
