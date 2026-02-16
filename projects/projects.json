@@ -3,7 +3,7 @@
   {
     "name": "Youtube Clone",
     "desc": "A feature-rich YouTube clone built with modern Web Technologies.",
-    "image": "instagrammern",
+    "image": "youtubeclone",
     "category": "mern",
     "links": {
       "view": "https://youtubeeclonewebsite.netlify.app/",
@@ -13,7 +13,7 @@
   {
     "name": "Mordern LogIn Page",
     "desc": "A clean and responsive login interface built with HTML, CSS, and JavaScript",
-    "image": "flipkartmern",
+    "image": "mordernloginpage",
     "category": "mern",
     "links": {
       "view": "https://mordern-login-page.vercel.app/",
@@ -23,7 +23,7 @@
   {
     "name": "College ChatBot",
     "desc": "A smart chatbot interface that provides instant answers to students about college admissions,campus services.",
-    "image": "resumegen",
+    "image": "collegechatbot",
     "category": "mern",
     "links": {
       "view": "https://college-chat-bot-pi.vercel.app/",
@@ -33,7 +33,7 @@
   {
     "name": "Solar system explorer",
     "desc": "An interactive educational website featuring 3D planet visualizations, and detailed information about our solar system's.",
-    "image": "jspro",
+    "image": "solarsystem",
     "category": "basicweb",
     "links": {
       "view": "https://solar-system-project-two.vercel.app/",
@@ -43,7 +43,7 @@
   {
     "name": "SR PhotoGraphy Studio Website",
     "desc": "A responsive website for a photography studio with interactive image galleries, booking sections, and modern UI/UX design using HTML, CSS, and JavaScript.",
-    "image": "flipkartphp",
+    "image": "srphotogrphy",
     "category": "lamp",
     "links": {
       "view": "https://srphotography-studio-webpage.vercel.app/",
@@ -53,7 +53,7 @@
   {
     "name": "SS Resturant Website",
     "desc": "A modern, fully responsive restaurant website developed using HTML5, CSS3, and JavaScript. This project showcases an elegant digital dining experience with a clean, user-friendly interface and smooth animations.",
-    "image": "jspro",
+    "image": "ssresturant",
     "category": "basicweb",
     "links": {
       "view": "https://ss-restaurent-website.vercel.app/",
