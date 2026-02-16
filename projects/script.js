@@ -105,17 +105,50 @@ getProjects().then(data => {
 })
 // fetch projects end
 
-// Start of Tawk.to Live Chat
-var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-(function () {
-    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
-})();
-// End of Tawk.to Live Chat
+// ChatBot Logic
+const chatToggler = document.querySelector(".chat-toggler");
+const closeBtn = document.querySelector(".close-btn");
+const chatbody = document.querySelector(".chat-body");
+const chatBox = document.querySelector(".chat-box");
+
+
+chatToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+closeBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+
+// FormSubmit AJAX to mail chat form data
+$("#chat-form").submit(function (event) {
+    event.preventDefault();
+
+    var formData = new FormData(this);
+
+    // Disable button to prevent multiple submissions
+    $(this).find('button[type="submit"]').text('Sending...').prop('disabled', true);
+
+    // Send to FormSubmit
+    fetch("https://formsubmit.co/ajax/aaasingh1010@gmail.com", {
+        method: "POST",
+        body: formData
+    })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            document.getElementById("chat-form").reset();
+            chatbody.innerHTML = `<p>Thanks for your message! 🚀<br>I'll get back to you soon.</p>`;
+            setTimeout(() => {
+                document.body.classList.remove("show-chatbot");
+                // Reset form HTML after close (optional, but good for UX if they open again)
+                setTimeout(() => {
+                    location.reload(); // Refresh to reset state or manually reset innerHTML
+                }, 1000)
+            }, 3000);
+        })
+        .catch(error => {
+            console.log(error);
+            alert("Something went wrong. Please try again.");
+            $(this).find('button[type="submit"]').text('Send Message').prop('disabled', false);
+        });
+});
+// ChatBot Logic End
 
 // disable developer mode
 document.onkeydown = function (e) {

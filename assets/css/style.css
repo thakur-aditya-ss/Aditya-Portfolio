@@ -1604,3 +1604,142 @@ form .button-area {
 }
 
 /* scroll top ends */
+
+/* ChatBot CSS Start */
+.chat-toggler {
+  position: fixed;
+  bottom: 30px;
+  right: 35px;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  background: #ffae00;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.show-chatbot .chat-toggler {
+  transform: rotate(90deg);
+}
+
+.chat-toggler span {
+  position: absolute;
+}
+
+.chat-toggler i {
+  color: #0d0042;
+}
+
+.chat-box {
+  position: fixed;
+  right: 35px;
+  bottom: 90px;
+  width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.5);
+  transform-origin: bottom right;
+  transition: all 0.1s ease;
+  z-index: 1000;
+}
+
+.show-chatbot .chat-box {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+
+.chat-header {
+  background: #ffae00;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-header h2 {
+  font-size: 1.5rem;
+  color: #0d0042;
+  font-weight: 600;
+}
+
+.chat-header .close-btn {
+  color: #0d0042;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.chat-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.chat-body p {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.input-group {
+  width: 100%;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.input-group textarea {
+  height: 80px;
+  resize: none;
+}
+
+.chat-submit-btn {
+  background: #2506ad;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.3s;
+  font-family: 'Nunito', sans-serif;
+}
+
+.chat-submit-btn:hover {
+  background: #1a047e;
+}
+
+@media (max-width: 450px) {
+  .chat-box {
+    width: 280px;
+    right: 20px;
+    bottom: 80px;
+  }
+}
+
+/* ChatBot CSS End */
