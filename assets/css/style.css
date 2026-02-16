@@ -519,6 +519,10 @@ header .navbar ul li a:hover {
   text-transform: none;
 }
 
+.about .row .content .box-container .box p a {
+  text-transform: lowercase;
+}
+
 .about .row .content .box-container .box p span {
   color: #011aff;
 }
@@ -935,16 +939,18 @@ header .navbar ul li a:hover {
   .work .box-container {
     padding: 0;
   }
-  
+
   .work .box-container .box {
     height: auto;
     flex-direction: column;
   }
 
   .work .box-container .box img {
-    height: 20rem; /* Fixed height for image to maintain consistency */
+    height: 20rem;
+    /* Fixed height for image to maintain consistency */
     width: 100%;
-    object-fit: cover; /* Ensures image covers area without distortion */
+    object-fit: cover;
+    /* Ensures image covers area without distortion */
   }
 
   .work .box-container .box .content {
@@ -973,12 +979,13 @@ header .navbar ul li a:hover {
 
   .work .box-container .box .content .desc {
     margin: 1rem;
-    opacity: 1; /* Make sure description is visible */
+    opacity: 1;
+    /* Make sure description is visible */
     padding: 0;
   }
-  
+
   .work .desc p {
-      font-size: 1.4rem;
+    font-size: 1.4rem;
   }
 
   .work .desc .btns {
@@ -986,11 +993,12 @@ header .navbar ul li a:hover {
     justify-content: center;
     gap: 1.5rem;
   }
-  
+
   .work .desc .btns .btn {
-      margin-right: 0;
+    margin-right: 0;
   }
 }
+
 /* work media queries ends*/
 /* work section ends */
 

@@ -44,7 +44,7 @@
     "name": "SR PhotoGraphy Studio Website",
     "desc": "A responsive website for a photography studio with interactive image galleries, booking sections, and modern UI/UX design using HTML, CSS, and JavaScript.",
     "image": "srphotogrphy",
-    "category": "lamp",
+    "category": "basicweb",
     "links": {
       "view": "https://srphotography-studio-webpage.vercel.app/",
       "code": "https://github.com/thakur-aditya-ss/SR-Photography-Studio-WebPage"
